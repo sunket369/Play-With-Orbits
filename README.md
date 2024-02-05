@@ -11,22 +11,25 @@ To read and understand the physics of this, visit: https://www3.mpifr-bonn.mpg.d
 
 --------------------------------------------------------------------
 
-The script can be used in two ways:
-1) Provide the pulsar parameters as command-line arguments.
-   syntax: python3 binary_pulsars.py PSR_name P0 ap e T0 Pb omega omega_dot
+## The script can be used in two ways:
+1) Provide the pulsar parameters as command-line arguments. 
+   syntax: `python3 binary_pulsars.py PSR_name P0 ap e T0 Pb omega omega_dot`
 2) Provide the pulsar parameters in a parameter file.
-   syntax: python3 binary_pulsars.py -par parfile.par
+   syntax: `python3 binary_pulsars.py -par parfile.par`
       
 It is recommended to use the parameter file option as it is more convenient.
 
 --------------------------------------------------------------------
       
-You can find the usage of the script by executing the following command:
-
-python3 psr_orb.py -usage
-
+## You can find the usage of the script by executing the following command:
+`python3 psr_orb.py -usage`
       
-Example of using the par file options:
+## Example of using the par file options:
+`python3 psr_orb.py -par parfile.par -mr 0.8 -date 2021-01-01 -prec -years 20 -anim`
 
-python3 psr_orb.py -par parfile.par -mr 0.8 -date 2021-01-01 -prec -years 20 -anim
+--------------------------------------------------------------------
+
+## Note:
+You may run the script with test_parfile.par or any other parameter file you have.
+You can also find example plots and animations generated using the script in the repository.
     
