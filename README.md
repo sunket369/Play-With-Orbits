@@ -22,8 +22,11 @@ It is recommended to use the parameter file option as it is more convenient.
 --------------------------------------------------------------------
       
 You can find the usage of the script by executing the following command:
+
 python3 psr_orb.py -usage
+
       
 Example of using the par file options:
+
 python3 psr_orb.py -par parfile.par -mr 0.8 -date 2021-01-01 -prec -years 20 -anim
     
