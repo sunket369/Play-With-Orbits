@@ -21,9 +21,9 @@ if len(sys.argv) > 1 and sys.argv[1] == '-usage':
 
     Script can be used in two ways:
     1) Provide the pulsar parameters as command-line arguments.
-       syntax: python3 binary_pulsars.py PSR_name P0 ap e T0 Pb omega omega_dot
+       syntax: python3 psr_orb.py -PSR_name PSR_name -P0 P0 -ap ap -e e -T0 T0 -Pb Pb -omega omega -anim
     2) Provide the pulsar parameters in a parameter file.
-       syntax: python3 binary_pulsars.py -par parfile.par
+       syntax: python3 psr_orb.py -par parfile.par -anim
           
     It is recommended to use the parameter file option as it is more convenient.
     
