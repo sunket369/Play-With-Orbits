@@ -30,6 +30,7 @@
 
   Additional options:
   -usage:    Usage of the script
+  
   -par:      Parameter file
               Example: -par parfile.par
   -mr:       Mass ratio [Mp/Mc]
