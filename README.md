@@ -1,5 +1,7 @@
 # Play-With-Orbits
 
+![animation.mp4](Play-With-Orbits/animation.mp4)
+
 The script is used to plot the orbit of a pulsar and its companion. It also plots
 the parametric curve - acceleration vs velocity of the pulsar.
 The script is useful to make plots for the desired epoch with some customizations,
