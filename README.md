@@ -2,7 +2,7 @@
 
 [![animation.mp4](Play-With-Orbits/animation.mp4)](https://github.com/sunket369/Play-With-Orbits/assets/86371778/62428235-209d-4279-ae37-b64c41500a4b)
 
-Note: The above animation is not an output generated with `psr_orb.py`! It has been rendered with 3B1B's `manim' library.
+Note: The above animation is not an output generated with `psr_orb.py`! It has been rendered with 3B1B's `manim` library.
 
 The script is used to plot the orbit of a pulsar and its companion. It also plots
 the parametric curve - acceleration vs velocity of the pulsar.
